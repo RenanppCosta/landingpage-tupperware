@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Sarabun&family=Satisfy&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Sarabun", sans-serif;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: red;
+    padding: 3rem;
+    width: 100%;
+}
+
+header nav a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+}
+
+header nav a:hover{
+    text-decoration: 2px underline black;
+    font-size: 24px;
+    transition: 1s;
+}
+
+header h2{
+    font-family: "Satisfy", "cursive";
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+header button{
+    background-color: black;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    text-transform: uppercase;
+    height: 2.8rem;
+    cursor: pointer;
+    align-items: center;
+    padding: 13px;
+}
+
+header button:hover{
+    color: black;
+    background-color: #ded5c6;
+    font-weight: bold;
+    transition: 1s;
+}
+
+main{
+    width: 100%;
+    display: flex;
+    background-color: aqua;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+#title h1{
+    color: black;
+    width: 45%;
+    font-size: 72px;
+    text-transform: uppercase;
+    text-align: justify;
+}
+
+#title p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    width: 45%;
+    margin-top: 1.5rem;
+}
+
+#title button{
+    margin-top: 2.5rem;
+    background-color: black;
+    color: white;
+    border: none;
+    text-transform: uppercase;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 20px;
+    width: 20%;
+    padding: 17px;
+}
